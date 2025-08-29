@@ -1,0 +1,127 @@
+@import url(./variaveis.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+    background-color: var(--color-gray);
+    border-radius: 20px;
+    font-family: 'Segoe UI';
+    width: 30%;
+    padding: 1.2vw;
+}
+
+.login form button {
+    align-self: flex-end;
+}
+
+.login form .div-label > label {
+    color: var(--color-input);
+    font-weight: 600;
+}
+
+.login form .input-form {
+    border: 1.5px solid #ecedec;
+    border-radius: 10px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding-left: 0.8vw;
+    transition: 0.2s ease-in-out;
+}
+
+.login form .input-form .input {
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+.login form .input-form .input:focus {
+    outline: none;
+}
+
+.login form .input-form:focus-within {
+    border: 1.5px solid var(--color-purple);
+}
+
+.login form .extras {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.2vh;
+    justify-content: space-between;
+}
+
+.login form .extras .forgot-password {
+    font-size: 14px;
+    margin-left: 5px;
+    color: var(--color-purple);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.login form .extras > div > label {
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+}
+
+.login form .button-login {
+    margin: 20px 0 10px 0;
+    background-color: var(--color-input);
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.login form .create-account {
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.login form .create-account .span {
+    font-size: 14px;
+    margin-left: 5px;
+    color: var(--color-purple);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.login form .other-logins .button {
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    gap: 10px;
+    border: 1px solid #ededef;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.login form .other-logins button:hover {
+    border: 1px solid var(--color-purple);
+}
+
+.login ::placeholder {
+    font-family: var(--font-button);
+}
