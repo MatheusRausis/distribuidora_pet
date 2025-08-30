@@ -7,9 +7,9 @@
 }
 
 header {
-  background-color: var(--color-gray);
+  background-color: var(--color-background);
   width: 100%;
-  height: 11.5vh;
+  height: 12vh;
   display: flex;
   justify-content: center;
 }
@@ -18,7 +18,7 @@ nav {
   width: 95%;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 nav .logo {
@@ -42,23 +42,19 @@ nav .search .input-search {
   width: 100%;
   height: 45px;
   padding-left: 2.5rem;
-  box-shadow: 0 0 0 1.5px E9ECEF, 0 0 25px -17px #000;
-  border: 0;
+  border: 2px solid var(--color-purple);
   border-radius: 12px;
-  background-color: #DEE2E6;
+  background-color: var(--color-background);
+  caret-color: var(--color-purple);
   outline: none;
-  color: white;
+  color: var(--color-purple);
   transition: all 0.25s cubic-bezier(0.19, 1, 0.22, 1);
   cursor: text;
   z-index: 0;
 }
 
 nav .search .input-search::placeholder {
-  color: white;
-}
-
-nav .search .input-search:active {
-  transform: scale(0.95);
+  color: var(--color-purple);
 }
 
 nav .search .input-search:focus {
@@ -68,11 +64,16 @@ nav .search .input-search:focus {
 nav .search .search-icon {
   position: absolute;
   left: 1rem;
-  fill: white;
+  fill: var(--color-purple);
   width: 1rem;
   height: 1rem;
   pointer-events: none;
   z-index: 1;
+}
+
+nav .search .input-search::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 /* ---------------- CART ---------------- */
@@ -92,8 +93,8 @@ nav .cart button {
 }
 
 nav .cart button .itens-counter {
-  color: #71498C;
-  background-color: white;
+  color: var(--color-purple);
+  background-color: var(--color-background);
   border-radius: 50%;
   font-weight: 700;
   width: 17px;
@@ -163,21 +164,25 @@ nav .login button:hover svg path {
 
 /* ---------------- CATEGORIES ---------------- */
 .categories .nav-list {
-  height: 4vh;
-  background-color: var(--color-dirty-white);
+  height: 4.5vh;
+  background-color: var(--color-green);
   display: grid;
   grid-template-columns: 8% 8% 8% 8% 8%;
   align-items: center;
   justify-content: start;
   gap: 1vw;
-  padding-left: 3%;
+  padding-left: 1.5%;
   list-style: none;
+}
+
+.categories .nav-list .nav-item{
+  text-align: center;
 }
 
 .categories .nav-list .nav-item a {
   font-family: var(--font-menu);
   text-decoration: none;
-  color: var(--color-purple);
+  color: var(--color-background);
   font-weight: 600;
   transition: 0.3s;
   line-height: 1.5;
@@ -192,6 +197,10 @@ nav .login button:hover svg path {
   transform: translateY(1px);
 }
 
-.categories .nav-item:first-child {
-  justify-self: start; /* alinha à esquerda */
+nav .login.connected button {
+  padding: 10px;         /* Diminuir padding para ficar quadrado */
+  width: 50px;           /* Largura igual à altura para circular */
+  height: 50px;          /* Altura fixa */
+  border-radius: 50%;    /* Deixa totalmente redondo */
+  gap: 0;                /* Remove gap */
 }

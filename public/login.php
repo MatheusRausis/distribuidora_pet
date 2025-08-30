@@ -8,6 +8,17 @@
     </head>
     <body>
         <section class="login">
+
+            <section class="title">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+
+                <div>
+                    <p>Login</p>
+                </div>
+            </section>
+
             <form action="">
                 <div class="div-label">
                     <label for="email">Email</label>
@@ -61,7 +72,7 @@
         </section>
 
         <section class="composition">
-            
+            <img src="img/Pets Serenos Sob o Céu Estrelado.png" alt="">
         </section>
     </body>
 </html>

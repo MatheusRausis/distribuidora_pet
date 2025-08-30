@@ -6,27 +6,55 @@
     box-sizing: border-box;
 }
 
-.login form {
+body{
+    display: flex;
+}
+
+.login{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 35%;
+    height: 100vh;
+    background-color: var(--color-background);
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title .logo{
+    width: 18vw;
+}
+
+.title .logo img{
+    width: 100%;
+}
+
+.title div p{
+    font-family: var(--font-title);
+    font-size: 1.75em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     gap: 1.5vh;
-    background-color: var(--color-gray);
-    border-radius: 20px;
     font-family: 'Segoe UI';
-    width: 30%;
     padding: 1.2vw;
+    width: 95%;
 }
 
-.login form button {
-    align-self: flex-end;
-}
-
-.login form .div-label > label {
+.div-label > label{
     color: var(--color-input);
     font-weight: 600;
 }
 
-.login form .input-form {
+.input-form{
     border: 1.5px solid #ecedec;
     border-radius: 10px;
     height: 35px;
@@ -34,9 +62,10 @@
     align-items: center;
     padding-left: 0.8vw;
     transition: 0.2s ease-in-out;
+    background-color: white;
 }
 
-.login form .input-form .input {
+.input-form .input{
     margin-left: 10px;
     border-radius: 10px;
     border: none;
@@ -44,15 +73,15 @@
     height: 100%;
 }
 
-.login form .input-form .input:focus {
+.input-form .input:focus{
     outline: none;
 }
 
-.login form .input-form:focus-within {
+.input-form:focus-within{
     border: 1.5px solid var(--color-purple);
 }
 
-.login form .extras {
+.extras{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -60,7 +89,7 @@
     justify-content: space-between;
 }
 
-.login form .extras .forgot-password {
+.extras .forgot-password{
     font-size: 14px;
     margin-left: 5px;
     color: var(--color-purple);
@@ -68,13 +97,13 @@
     cursor: pointer;
 }
 
-.login form .extras > div > label {
+.extras > div > label{
     font-size: 14px;
     color: black;
     font-weight: 400;
 }
 
-.login form .button-login {
+.button-login{
     margin: 20px 0 10px 0;
     background-color: var(--color-input);
     border: none;
@@ -83,18 +112,18 @@
     font-weight: 500;
     border-radius: 10px;
     height: 50px;
-    width: 100%;
     cursor: pointer;
+    align-items: center;
 }
 
-.login form .create-account {
+.create-account{
     text-align: center;
     color: black;
     font-size: 14px;
     margin: 5px 0;
 }
 
-.login form .create-account .span {
+.create-account .span{
     font-size: 14px;
     margin-left: 5px;
     color: var(--color-purple);
@@ -102,9 +131,9 @@
     cursor: pointer;
 }
 
-.login form .other-logins .button {
+.other-logins .button{
     margin-top: 10px;
-    width: 100%;
+    width: 65%;
     height: 50px;
     border-radius: 10px;
     display: flex;
@@ -112,16 +141,64 @@
     align-items: center;
     font-weight: 500;
     gap: 10px;
-    border: 1px solid #ededef;
+    border: 1px solid var(--color-input);
     background-color: white;
     cursor: pointer;
     transition: 0.2s ease-in-out;
+    margin: auto;
 }
 
-.login form .other-logins button:hover {
+.other-logins button:hover{
     border: 1px solid var(--color-purple);
 }
 
-.login ::placeholder {
+.login::placeholder{
     font-family: var(--font-button);
+}
+
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vw;
+    width: 85%;
+    text-align: center;
+    margin: 1.5vh auto;
+}
+
+.line::before,
+.line::after {
+  content: " ";
+  flex: 1;
+  height: 1px;
+  background: var(--color-input);
+}
+
+input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  width: 10px;
+  height: 10px;
+  border: 2px solid var(--color-input);
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked {
+  background-color: var(--color-purple);
+  border-color: var(--color-purple);
+}
+
+.composition{
+  height: 100vh;
+  overflow: hidden;
+}
+
+.composition img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
