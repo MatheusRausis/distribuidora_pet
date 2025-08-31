@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
@@ -41,8 +42,8 @@
                 </div>
 
                 <?php 
-                const connected = TRUE;
-                if(connected == TRUE): 
+                $connected = isset($_SESSION['user_id']);
+                if($connected): 
                 ?>
                     <div class="login connected">
                         <button onclick="">

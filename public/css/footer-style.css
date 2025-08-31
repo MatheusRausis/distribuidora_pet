@@ -1,0 +1,100 @@
+@import url(./variaveis.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+footer{
+    background-color: var(--color-green);
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    width: 100vw;
+    height: 50vh;
+}
+
+footer .enterprise{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column: 1;
+}
+
+.enterprise .logo{
+    width: 75%;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.social-media{
+    display: flex;
+    align-items: star;
+    justify-content: center;
+    height: 70px;
+    width: 15vw;
+}
+
+.social-media svg{
+    position: absolute;
+    display: flex;
+    width: 60%;
+    height: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    opacity: 1;
+    transition: opacity 0.25s;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.social-media .social-link-linkedin, .social-media .social-link-behance, .social-media .social-link-facebook{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7.5vh;
+    aspect-ratio: 1 / 1;
+    color: whitesmoke;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.25s;
+    border-radius: 50px;
+}
+
+.social-media svg{
+    transform: scale(1);
+}
+
+.social-media .social-link-linkedin:hover {
+  background-color: #0a66c2;
+  animation: bounce_613 0.4s linear;
+}
+
+.social-media .social-link-behance:hover {
+  background-color: #0059f7;
+  animation: bounce_613 0.4s linear;
+}
+
+.social-media .social-link-facebook:hover {
+  background-color: #1d4292;
+  animation: bounce_613 0.4s linear;
+}
+
+.contact-email{
+    font-family: var(--font-menu);
+    color: #F6F6F6;
+    font-size: 0.9em;
+}
+
+.contact-email p .email{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
+
+.categories{
+    grid-column: 3;
+}

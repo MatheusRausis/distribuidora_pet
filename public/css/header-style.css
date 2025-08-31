@@ -199,8 +199,8 @@ nav .login button:hover svg path {
 
 nav .login.connected button {
   padding: 10px;         /* Diminuir padding para ficar quadrado */
-  width: 50px;           /* Largura igual à altura para circular */
-  height: 50px;          /* Altura fixa */
+  width: 45px;           /* Largura igual à altura para circular */
+  height: 45px;          /* Altura fixa */
   border-radius: 50%;    /* Deixa totalmente redondo */
   gap: 0;                /* Remove gap */
 }
