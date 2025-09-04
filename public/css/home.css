@@ -1,0 +1,265 @@
+/* section 1 */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 60px 10%;
+  background-color: #ffffff;
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.hero-text h1 span {
+  color: #6a1b9a;
+}
+
+.hero-text p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-primary {
+  background-color: #6a1b9a;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero-carousel {
+  flex: 1;
+}
+
+.hero-carousel img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+
+
+/* section 2 */
+.novidades-section {
+  padding: 40px 8%;
+  background: #dddddd;
+}
+
+.novidades-section h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #000;
+  text-align: center;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product-card {
+  background: #ffffff;
+  border: 1px solid #f1f1f1;
+  width: 280px;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+.product-tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #6a1b9a;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.product-tag.new {
+  background: #038C65;
+}
+
+.product-img {
+  padding-top: 20px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+.product-body {
+  padding: 15px;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-body h3 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.price-unit, .price-bulk {
+  font-size: 0.9rem;
+  margin: 3px 0;
+}
+
+.price-unit span, .price-bulk span {
+  font-weight: bold;
+  color: #2a9d8f;
+}
+
+.product-actions {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.qty-input {
+  width: 50px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.btn-cart {
+  background: #6a1b9a;
+  color: #fff;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.3s ease;
+}
+
+.btn-cart:hover {
+  background: #4a0f6d;
+}
+/* section 3 */
+.banners{
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 30px;
+}
+.banners div img{
+  padding: 0 15px 0 0;
+  max-width: 50vw;
+  max-height: 20vw;
+  border-radius: 30px;
+}
+
+/* section 4 */
+.recommended-section{
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #dddddd;
+}
+.recommended-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.recommended-section p {
+  margin-bottom: 20px;
+  color: #555;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 2 colunas */
+  gap: 20px;
+  max-width: 1000px;
+  justify-content: center;
+  margin: 0 auto;
+}
+.catalog-btn-wrapper{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.catalog-btn-wrapper a{
+  color: #000;
+  text-decoration: none;
+}
+.catalog-btn-wrapper a button{
+  background: #038C65;
+  color: #fff;
+  padding: 16px 27px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.3s ease;
+}
+.catalog-btn-wrapper button:hover {
+  background: #027252;
+}
+
+/* section 5 */
+.partners-section {
+  background-color: #ffffff;
+  padding: 40px 10%;
+  text-align: center;
+}
+
+.partners-text {
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.partners-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.partners-logos img {
+  max-height: 50px;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+
+.partners-logos img:hover {
+  opacity: 1;
+}

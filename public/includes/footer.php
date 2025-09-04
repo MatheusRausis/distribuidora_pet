@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/footer-style.css">
-    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/footer-style.css">
 </head>
 <body>
     <footer>
@@ -13,7 +13,7 @@
         <!-- Coluna 1: Logo -->
         <div class="footer-logo">
         <div class="logo">
-            <img src="../img/white logo.png" alt="logo PETBIO">
+            <img src="img/white logo.png" alt="logo PETBIO">
         </div>
         </div>
 
