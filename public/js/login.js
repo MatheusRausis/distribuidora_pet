@@ -21,7 +21,7 @@ async function logar(e){
         const resposta = await response.json();
         
         if(resposta.success){
-            window.location.href = './includes/header.php';
+            window.location.href = '/../distribuidora_pet/public/index.php';
         } else {
             console.log('Falha no login');
         }

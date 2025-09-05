@@ -1,11 +1,5 @@
 @import url(./variaveis.css);
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 header {
   background-color: var(--color-background);
   width: 100%;
