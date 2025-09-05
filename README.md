@@ -62,7 +62,8 @@ Importante: a aplicação ainda não realiza vendas e nem alterações no banco 
 ## Avisos
 - Este projeto foi desenvolvido para fins acadêmicos.  
 - Todas as imagens, logotipos e marcas utilizadas pertencem aos seus respectivos autores.  
-- Não há fins comerciais ou de distribuição associados a este trabalho.  
+- Não há fins comerciais ou de distribuição associados a este trabalho.
+- Este projeto está sob a licença Acadêmica Não-Comercial, que permite estudo e reprodução com fins educacionais, mas proíbe o uso comercial. Consulte o arquivo [LICENSE](./LICENSE) para mais informações.
 
 ---
 
