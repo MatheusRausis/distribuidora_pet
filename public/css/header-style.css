@@ -198,3 +198,8 @@ nav .login.connected button {
   border-radius: 50%;    /* Deixa totalmente redondo */
   gap: 0;                /* Remove gap */
 }
+
+
+#link-login{
+  text-decoration: none;
+}

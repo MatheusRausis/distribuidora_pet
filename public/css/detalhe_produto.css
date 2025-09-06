@@ -1,3 +1,5 @@
+@import url(./variaveis.css);
+
 /* Seção de Detalhes do Produto */
 .Seção-carrinho {
   padding: 40px 20px;
@@ -141,23 +143,23 @@
 }
 
 .buy-button {
-  background: #ff6600;
+  background: var(--color-green);
   color: #fff;
   font-weight: bold;
 }
 
 .buy-button:hover {
-  background: #e05500;
+  background: #015c42;
 }
 
 .shipping-button {
-  background: #008cba;
+  background: var(--color-purple);
   color: #fff;
   font-weight: bold;
 }
 
 .shipping-button:hover {
-  background: #006f98;
+  background: #4b2068;
 }
 
 /* Métodos de pagamento */
