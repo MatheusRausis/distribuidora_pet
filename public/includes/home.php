@@ -119,6 +119,7 @@
 
         <!-- Card 3 -->
         <div class="product-card">
+            <div class="product-tag">Promoção</div>
             <a href="/public/detalhamento_produto.php"><img src="https://a-static.mlcdn.com.br/1500x1500/racao-premium-para-cachorro-dog-chow-extralife-filhote-carne-frango-e-arroz-1kg/magazineluiza/233502000/2a8707f54c5eac33db037fe90e822f58.jpg" alt="Shampoo Antialérgico" class="product-img"></a>
             <div class="product-body">
                 <h3>Shampoo Antialérgico</h3>
@@ -163,6 +164,7 @@
 
         <!-- Card 6 -->
         <div class="product-card">
+            <div class="product-tag">Promoção</div>
             <a href="/public/detalhamento_produto.php"><img src="https://a-static.mlcdn.com.br/1500x1500/racao-premium-para-cachorro-dog-chow-extralife-filhote-carne-frango-e-arroz-1kg/magazineluiza/233502000/2a8707f54c5eac33db037fe90e822f58.jpg" alt="Shampoo Antialérgico" class="product-img"></a>
             <div class="product-body">
                 <h3>Shampoo Antialérgico</h3>
@@ -178,7 +180,7 @@
 
     <!-- Botão ver catálogo completo -->
     <div class="catalog-btn-wrapper">
-        <a href="catalogo.html" class="btn-catalog"><button>Ver Catálogo Completo</button></a>
+        <button class="btn-catalog" onclick="window.location.href='index.php?page=catalogo'">Ver Catálogo Completo</button>
     </div>
     </section>
 

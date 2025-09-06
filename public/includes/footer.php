@@ -82,7 +82,7 @@
     </div>
 
     <div class="footer-bottom">
-        © 2025 Rian. Todos os direitos reservados. |
+        © 2025 PetBio. Todos os direitos reservados. |
         <a href="#">Política de Privacidade</a> |
         <a href="#">Termos de Serviço</a> |
         <a href="#">Configuração de Cookies</a>

@@ -12,7 +12,7 @@
             <button class="back-button" onclick="window.history.back()">Voltar</button>
             <div class="container">
                 <div class="product-image">
-                    <img id="product-image" src="" alt="Imagem do Produto">
+                    <img id="product-image" src="https://a-static.mlcdn.com.br/1500x1500/racao-premium-para-cachorro-dog-chow-extralife-filhote-carne-frango-e-arroz-1kg/magazineluiza/233502000/2a8707f54c5eac33db037fe90e822f58.jpg" alt="Imagem do Produto">
                 </div>
                 <div class="product-details">
                     <h2 id="product-title">Carregando...</h2>
@@ -23,9 +23,9 @@
                     <h3 class="product-price" id="product-price"></h3>
                     <p id="product-installments"></p>
                     <div class="quantity">
-                        <button class="minus">-</button>
+                        <button type="button" class="minus">-</button>
                         <input type="text" id="quantity" value="1">
-                        <button class="plus">+</button>
+                        <button type="button" class="plus">+</button>
                     </div>
                     <button class="buy-button">Comprar</button>
                     <button class="shipping-button" onclick="AdicionarSacola()">Adicionar ao Carrinho</button>
@@ -55,5 +55,6 @@
             </div>
         </section>
     </main>
+    <script src="js/input-quantidade.js"></script>
 </body>
 </html>
