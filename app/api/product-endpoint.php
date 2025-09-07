@@ -5,17 +5,16 @@
 
     switch ($method) {
         case 'GET':
-            $search = $_GET['search'] ?? null;
-            $function = $_GET['function'] ?? null;
-            if($search != null && $function == null){
+            $id = $_GET['id'] ?? null;
+            if($id == null){
                 http_response_code(200);
-                $products = $controller -> _readSearch($search);
+                $quantity = $controller -> _quantityProducts();
                 header('Content-Type: application/json');
-                echo json_encode($products);
+                echo json_encode(['quantity' => $quantity]);
                 break;
-            } elseif ($search != null && $function == 'quantity') {
+            } else {
                 http_response_code(200);
-                $product = $controller -> _quantityQuery($search);
+                $product = $controller -> _generateProducts($id);
                 header('Content-Type: application/json');
                 echo json_encode($product);
                 break;

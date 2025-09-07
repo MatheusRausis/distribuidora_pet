@@ -7,6 +7,8 @@
                 id INT AUTO_INCREMENT PRIMARY KEY,
                 name VARCHAR(100) NOT NULL
             ) ENGINE=InnoDB";
+
+            parent::_query($sql);
         }
     }
 ?>

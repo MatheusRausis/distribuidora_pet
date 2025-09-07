@@ -39,23 +39,22 @@ Importante: a aplicação ainda não realiza vendas e nem alterações no banco 
  ┃ ┣ 📂 models       # Modelos que representam a estrutura de dados
  ┃ ┣ migrations.php   # Inicia os models do banco de dados
  ┃
- ┣ 📂 docs         # Documentação do projeto
- ┃
  ┣ 📂 public       # Arquivos acessíveis pelo navegador (frontend)
  ┃ ┣ 📂 css        # Css
  ┃ ┣ 📂 img        # Imagens
  ┃ ┣ 📂 includes   # Arquivos reutilizáveis
  ┃ ┣ 📂 js         # JavaScript
  ┃ ┣ 📂 uploads    # Imagens do banco de dados
- ┃ ┣ car.php        # Carrinho de compras
+ ┃ ┣ cart.php        # Carrinho de compras
  ┃ ┣ create-account.php # Tela de cadastro de usuários
  ┃ ┣ catalogo.php   # Visualização do catálogo de produtos
- ┃ ┣ detalhamento_produto.php # Página do produto individual
+ ┃ ┣ product_details.php # Página do produto individual
  ┃ ┣ index.php      # Página inicial
  ┃ ┣ login.php      # Tela de login
  ┃
  ┣ README.md       # Documentação principal
  ┣ LICENSE         # Licença do projeto
+ ```
 
 ---
 
@@ -63,7 +62,7 @@ Importante: a aplicação ainda não realiza vendas e nem alterações no banco 
 - Este projeto foi desenvolvido para fins acadêmicos.  
 - Todas as imagens, logotipos e marcas utilizadas pertencem aos seus respectivos autores.  
 - Não há fins comerciais ou de distribuição associados a este trabalho.
-- Este projeto está sob a licença Acadêmica Não-Comercial, que permite estudo e reprodução com fins educacionais, mas proíbe o uso comercial. Consulte o arquivo [LICENSE](./LICENSE) para mais informações.
+- Este projeto está sob a licença Acadêmica Não-Comercial, que permite estudo e reprodução com fins educacionais, mas proíbe o uso comercial. Consulte a [licença](./LICENSE) para mais informações.
 
 ---
 

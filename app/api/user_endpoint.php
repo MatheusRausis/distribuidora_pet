@@ -3,9 +3,6 @@
     $controller = new UserController();
     $method = $_SERVER['REQUEST_METHOD'];
 
-    $request = explode('/', trim($_SERVER['PATH_INFO'] ?? '', '/'));
-    $email = $request[2] ?? null;
-
     switch ($method) {
         case 'POST': // Criar/ Cadastrar
             $data = json_decode(file_get_contents("php://input"), true);

@@ -21,14 +21,59 @@
             parent::_query($sql);
         }
 
-        public function _listOne($search){
-            $sql = "SELECT p.* 
+        public function _listSearch($search){
+            $search = '%' . $search . '%';
+
+            $stmt = $this -> conn -> prepare("SELECT p.* 
             FROM product_data p
-            JOIN category_data c ON p.category_id = c.id
-            WHERE name LIKE '%$search%'
-                OR c.name LIKE '%$search%'
-                OR brand LIKE '$search'
-                OR description LIKE '%$search%'";
+            JOIN categories_data c ON p.category_id = c.id
+            WHERE p.name LIKE ?
+                OR c.name LIKE ?
+                OR brand LIKE ?
+                OR description LIKE ?");
+
+            $stmt -> bind_param("ssss", $search,  $search,  $search,  $search);
+            $stmt -> execute();
+            $result = $stmt -> get_result();
+            $products = [];
+            while($row = $result -> fetch_assoc()){
+                $products[] = $row;
+            }
+            return $products;
+        }
+
+        public function _quantityProducts(){
+            $stmt = $this -> conn -> prepare("SELECT COUNT(*) FROM product_data");
+            $stmt -> execute();
+            $result = $stmt -> get_result();
+            $row = $result -> fetch_row();    
+            return (int) $row[0];   
+        }
+
+        public function _quantityQuery($search){
+            $search = '%' . $this -> conn -> real_escape_string($search) . '%';
+            $stmt = $this -> conn -> prepare("SELECT COUNT(*)
+            FROM product_data p
+            LEFT JOIN categories_data c ON p.category_id = c.id
+            WHERE p.name LIKE ?
+                OR c.name LIKE ?
+                OR p.brand LIKE ?
+                OR p.description LIKE ?");
+
+            $stmt -> bind_param("ssss", $search,  $search,  $search,  $search);
+            $stmt -> execute();
+            $result = $stmt -> get_result();
+            $row = $result -> fetch_row();    
+            return (int) $row[0];   
+        }
+
+        public function _generateProduct($id){
+            $stmt = $this -> conn -> prepare("SELECT * FROM product_data WHERE id = ?");
+            $stmt -> bind_param('i', $id);
+            $stmt -> execute();
+            $result = $stmt -> get_result();
+            $result = $result -> fetch_assoc();
+            return $result;
         }
     }
 ?>

@@ -32,7 +32,7 @@
        <!-- Card 1 -->
         <div class="product-card">
         <div class="product-tag new">Novidade</div>
-        <a href="/public/detalhamento_produto.php"><img src="https://a-static.mlcdn.com.br/1500x1500/racao-premium-para-cachorro-dog-chow-extralife-filhote-carne-frango-e-arroz-1kg/magazineluiza/233502000/2a8707f54c5eac33db037fe90e822f58.jpg" class="product-img" alt="Brinquedo Interativo"></a>
+        <a href="/public/product_details.php"><img src="https://a-static.mlcdn.com.br/1500x1500/racao-premium-para-cachorro-dog-chow-extralife-filhote-carne-frango-e-arroz-1kg/magazineluiza/233502000/2a8707f54c5eac33db037fe90e822f58.jpg" class="product-img" alt="Brinquedo Interativo"></a>
         <div class="product-body">
             <h3>Brinquedo Interativo</h3>
             <p class="price-unit">Preço Unitário: <span>R$ 35,00</span></p>
@@ -47,7 +47,7 @@
         <!-- Card 2 -->
         <div class="product-card">
         <div class="product-tag new">Novidade</div>
-        <a href="/public/detalhamento_produto.php"><img src="https://a-static.mlcdn.com.br/1500x1500/racao-premium-para-cachorro-dog-chow-extralife-filhote-carne-frango-e-arroz-1kg/magazineluiza/233502000/2a8707f54c5eac33db037fe90e822f58.jpg" class="product-img" alt="Brinquedo Interativo"></a>
+        <a href="/public/product_details.php"><img src="https://a-static.mlcdn.com.br/1500x1500/racao-premium-para-cachorro-dog-chow-extralife-filhote-carne-frango-e-arroz-1kg/magazineluiza/233502000/2a8707f54c5eac33db037fe90e822f58.jpg" class="product-img" alt="Brinquedo Interativo"></a>
         <div class="product-body">
             <h3>Brinquedo Interativo</h3>
             <p class="price-unit">Preço Unitário: <span>R$ 35,00</span></p>
@@ -62,7 +62,7 @@
         <!-- Card 3 -->
         <div class="product-card">
         <div class="product-tag new">Novidade</div>
-        <a href="/public/detalhamento_produto.php"><img src="https://a-static.mlcdn.com.br/1500x1500/racao-premium-para-cachorro-dog-chow-extralife-filhote-carne-frango-e-arroz-1kg/magazineluiza/233502000/2a8707f54c5eac33db037fe90e822f58.jpg" class="product-img" alt="Shampoo Antialérgico"></a>
+        <a href="/public/product_details.php"><img src="https://a-static.mlcdn.com.br/1500x1500/racao-premium-para-cachorro-dog-chow-extralife-filhote-carne-frango-e-arroz-1kg/magazineluiza/233502000/2a8707f54c5eac33db037fe90e822f58.jpg" class="product-img" alt="Shampoo Antialérgico"></a>
         <div class="product-body">
             <h3>Shampoo Antialérgico</h3>
             <p class="price-unit">Preço Unitário: <span>R$ 45,00</span></p>
@@ -90,7 +90,7 @@
         <!-- Card 1 -->
         <div class="product-card">
             <div class="product-tag">Promoção</div>
-            <a href="/public/detalhamento_produto.php"><img src="https://a-static.mlcdn.com.br/1500x1500/racao-premium-para-cachorro-dog-chow-extralife-filhote-carne-frango-e-arroz-1kg/magazineluiza/233502000/2a8707f54c5eac33db037fe90e822f58.jpg" alt="Ração Premium" class="product-img"></a>
+            <a href="/public/product_details.php"><img src="https://a-static.mlcdn.com.br/1500x1500/racao-premium-para-cachorro-dog-chow-extralife-filhote-carne-frango-e-arroz-1kg/magazineluiza/233502000/2a8707f54c5eac33db037fe90e822f58.jpg" alt="Ração Premium" class="product-img"></a>
             <div class="product-body">
                 <h3>Ração Premium</h3>
                 <p class="price-unit">Preço Unitário: <span>R$ 15,00</span></p>
@@ -105,7 +105,7 @@
         <!-- Card 2 -->
         <div class="product-card">
             <div class="product-tag new">Novidade</div>
-            <a href="/public/detalhamento_produto.php"><img src="https://a-static.mlcdn.com.br/1500x1500/racao-premium-para-cachorro-dog-chow-extralife-filhote-carne-frango-e-arroz-1kg/magazineluiza/233502000/2a8707f54c5eac33db037fe90e822f58.jpg" alt="Brinquedo Interativo" class="product-img"></a>
+            <a href="/public/product_details.php"><img src="https://a-static.mlcdn.com.br/1500x1500/racao-premium-para-cachorro-dog-chow-extralife-filhote-carne-frango-e-arroz-1kg/magazineluiza/233502000/2a8707f54c5eac33db037fe90e822f58.jpg" alt="Brinquedo Interativo" class="product-img"></a>
             <div class="product-body">
                 <h3>Brinquedo Interativo</h3>
                 <p class="price-unit">Preço Unitário: <span>R$ 35,00</span></p>
@@ -120,7 +120,7 @@
         <!-- Card 3 -->
         <div class="product-card">
             <div class="product-tag">Promoção</div>
-            <a href="/public/detalhamento_produto.php"><img src="https://a-static.mlcdn.com.br/1500x1500/racao-premium-para-cachorro-dog-chow-extralife-filhote-carne-frango-e-arroz-1kg/magazineluiza/233502000/2a8707f54c5eac33db037fe90e822f58.jpg" alt="Shampoo Antialérgico" class="product-img"></a>
+            <a href="/public/product_details.php"><img src="https://a-static.mlcdn.com.br/1500x1500/racao-premium-para-cachorro-dog-chow-extralife-filhote-carne-frango-e-arroz-1kg/magazineluiza/233502000/2a8707f54c5eac33db037fe90e822f58.jpg" alt="Shampoo Antialérgico" class="product-img"></a>
             <div class="product-body">
                 <h3>Shampoo Antialérgico</h3>
                 <p class="price-unit">Preço Unitário: <span>R$ 45,00</span></p>
@@ -135,7 +135,7 @@
         <!-- Card 4 -->
         <div class="product-card">
             <div class="product-tag">Promoção</div>
-            <a href="/public/detalhamento_produto.php"><img src="https://a-static.mlcdn.com.br/1500x1500/racao-premium-para-cachorro-dog-chow-extralife-filhote-carne-frango-e-arroz-1kg/magazineluiza/233502000/2a8707f54c5eac33db037fe90e822f58.jpg" alt="Ração Premium" class="product-img"></a>
+            <a href="/public/product_details.php"><img src="https://a-static.mlcdn.com.br/1500x1500/racao-premium-para-cachorro-dog-chow-extralife-filhote-carne-frango-e-arroz-1kg/magazineluiza/233502000/2a8707f54c5eac33db037fe90e822f58.jpg" alt="Ração Premium" class="product-img"></a>
             <div class="product-body">
                 <h3>Ração Premium</h3>
                 <p class="price-unit">Preço Unitário: <span>R$ 15,00</span></p>
@@ -150,7 +150,7 @@
         <!-- Card 5 -->
         <div class="product-card">
             <div class="product-tag new">Novidade</div>
-            <a href="/public/detalhamento_produto.php"><img src="https://a-static.mlcdn.com.br/1500x1500/racao-premium-para-cachorro-dog-chow-extralife-filhote-carne-frango-e-arroz-1kg/magazineluiza/233502000/2a8707f54c5eac33db037fe90e822f58.jpg" alt="Brinquedo Interativo" class="product-img"></a>
+            <a href="/public/product_details.php"><img src="https://a-static.mlcdn.com.br/1500x1500/racao-premium-para-cachorro-dog-chow-extralife-filhote-carne-frango-e-arroz-1kg/magazineluiza/233502000/2a8707f54c5eac33db037fe90e822f58.jpg" alt="Brinquedo Interativo" class="product-img"></a>
             <div class="product-body">
                 <h3>Brinquedo Interativo</h3>
                 <p class="price-unit">Preço Unitário: <span>R$ 35,00</span></p>
@@ -165,7 +165,7 @@
         <!-- Card 6 -->
         <div class="product-card">
             <div class="product-tag">Promoção</div>
-            <a href="/public/detalhamento_produto.php"><img src="https://a-static.mlcdn.com.br/1500x1500/racao-premium-para-cachorro-dog-chow-extralife-filhote-carne-frango-e-arroz-1kg/magazineluiza/233502000/2a8707f54c5eac33db037fe90e822f58.jpg" alt="Shampoo Antialérgico" class="product-img"></a>
+            <a href="/public/product_details.php"><img src="https://a-static.mlcdn.com.br/1500x1500/racao-premium-para-cachorro-dog-chow-extralife-filhote-carne-frango-e-arroz-1kg/magazineluiza/233502000/2a8707f54c5eac33db037fe90e822f58.jpg" alt="Shampoo Antialérgico" class="product-img"></a>
             <div class="product-body">
                 <h3>Shampoo Antialérgico</h3>
                 <p class="price-unit">Preço Unitário: <span>R$ 45,00</span></p>
@@ -180,7 +180,7 @@
 
     <!-- Botão ver catálogo completo -->
     <div class="catalog-btn-wrapper">
-        <button class="btn-catalog" onclick="window.location.href='index.php?page=catalogo'">Ver Catálogo Completo</button>
+        <button class="btn-catalog" onclick="window.location.href='index.php?page=catalog'">Ver Catálogo Completo</button>
     </div>
     </section>
 
